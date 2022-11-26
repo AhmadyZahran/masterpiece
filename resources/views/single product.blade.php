@@ -13,10 +13,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="breadcrumb-tree">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">All Categories</a></li>
-							<li><a href="#">Accessories</a></li>
-							<li><a href="#">Headphones</a></li>
+							<li><a href="./">Home</a></li>
+							<li><a href="./category">Categories</a></li>
+							<li><a href="./product">Product</a></li>
 							<li class="active">Product name goes here</li>
 						</ul>
 					</div>
@@ -70,9 +69,7 @@
 								<img src="./img/product06.png" alt="">
 							</div>
 
-							<div class="product-preview">
-								<img src="./img/product08.png" alt="">
-							</div>
+							
 						</div>
 					</div>
 					<!-- /Product thumb imgs -->
@@ -81,7 +78,7 @@
 					<div class="col-md-5">
 						<div class="product-details">
 							<h2 class="product-name">product name goes here</h2>
-							<div>
+							<div> <!-- review stars -->
 								<div class="product-rating">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>

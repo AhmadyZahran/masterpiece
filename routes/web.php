@@ -33,4 +33,22 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/singleproduct', function () {
+    return view('single product');
+});
+Route::get('/allproduct', function () {
+    return view('all product');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/register', function () {
+    return view('register');
+});
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/cart', function () {
+    return view('cart');
+});
 

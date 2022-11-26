@@ -90,12 +90,37 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-  list-style: none
+  list-style: none;
+  color: black
 }
 
 /*----------------------------*\
-	Buttons
+	Buttons li navbar
 \*----------------------------*/
+.navbar-nav {
+  display: flex;
+  flex-direction: row !important;
+  font-size: 14px !important;
+
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 98%;
+  }
+}
 
 .primary-btn {
   display: inline-block;
@@ -723,6 +748,9 @@ textarea.input {
   .main-nav {
     margin: 0px;
     float: none;
+    display: flex !important;
+    font-size: 14px !important;
+
   }
 
   .main-nav>li {
@@ -1137,7 +1165,8 @@ map style
 /*about page card style */
 .paragraph {
   font-size: 20px;
-  width: 60%;
+  width: 97%;
+  text-align: center;
 }
 
 .card {
@@ -1145,6 +1174,132 @@ map style
   margin: 0 10px;
   padding: 10px 10px;
 }
+
+
+/*----------------------------*\
+	foooorm
+\*----------------------------*/
+
+#login-form-wrap {
+  text-align: center;
+  background-color: grey;
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+}
+
+
+body {
+  /* margin-top: 20px; */
+  background: #eee;
+}
+
+.ui-w-40 {
+  width: 40px !important;
+  height: auto;
+}
+
+.card {
+  box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .08);
+  margin: 10px 0;
+}
+
+.ui-product-color {
+  display: inline-block;
+  overflow: hidden;
+  margin: .144em;
+  width: .875rem;
+  height: .875rem;
+  border-radius: 10rem;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  vertical-align: middle;
+}
+
+/*----------------------------*\
+login
+\*----------------------------*/
+
+body {
+  /* margin-top:20px; */
+  background: #eee;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+
+.card-columns .card {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 3;
+    column-gap: 1.25rem;
+  }
+
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.text-muted {
+  color: #9faecb !important;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+
+
+
+
 
 
 

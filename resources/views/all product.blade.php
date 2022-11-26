@@ -4,12 +4,12 @@
 
 @section('content')
     	<!-- BREADCRUMB -->
-		<div id="breadcrumb" class="section">
+		<div    id="breadcrumb" class="section">
 			<!-- container -->
 			<div class="container">
 				<!-- row -->
-				<div class="row">
-					<div class="col-md-12">
+				{{-- <div class="row">
+					{{-- <div class="col-md-12">
 						<ul class="breadcrumb-tree">
 							<li><a href="#">Home</a></li>
 							<li><a href="#">All Categories</a></li>
@@ -208,7 +208,7 @@
 						</div>
 						<!-- /aside Widget -->
 					</div>
-					<!-- /ASIDE -->
+					<!-- /ASIDE --> --}} 	
 
 					<!-- STORE -->
 					<div id="store" class="col-md-9">
@@ -231,10 +231,10 @@
 									</select>
 								</label>
 							</div>
-							<ul class="store-grid">
+							{{-- <ul class="store-grid">
 								<li class="active"><i class="fa fa-th"></i></li>
 								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
-							</ul>
+							</ul> --}}
 						</div>
 						<!-- /store top filter -->
 
