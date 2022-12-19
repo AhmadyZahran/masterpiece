@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TemplateController;
+use App\Http\Controllers\CustomAuthController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,39 +17,64 @@ use App\Http\Controllers\TemplateController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', [TemplateController::class, 'index']);
+Route::get('/', [TemplateController::class, 'index'])->name('home');
+
+
 Route::get('/category', function () {
     return view('category');
 });
-Route::get('/product', function () {
-    return view('product');
-});
+
+Route::get('/login', [CustomAuthController::class, 'index'])->name('login');
+
+Route::post('/custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
+Route::get('/register', [CustomAuthController::class, 'registration'])->name('register-user');
+
+// Route::get('/product', function () {
+    Route::get('/dashboard', [CustomAuthController::class, 'dashboard']); 
+    Route::post('/custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
+    Route::get('/signout', [CustomAuthController::class, 'signOut'])->name('signout');
+    // return view('product');
+// });
 
 Route::get('/checkout', function () {
     return view('checkout');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
 Route::get('/about', function () {
     return view('about');
 });
+
 Route::get('/contact', function () {
     return view('contact');
 });
+
+
 Route::get('/singleproduct', function () {
     return view('single product');
 });
+
 Route::get('/allproduct', function () {
     return view('all product');
 });
-Route::get('/login', function () {
-    return view('login');
-});
-Route::get('/register', function () {
-    return view('register');
-});
+
+// Route::get('/login', function () {
+//     return view('login');
+// });
+
+// Route::get('/register', function () {
+//     return view('register');
+// });
+
 Route::get('/profile', function () {
     return view('profile');
 });
+
+
 Route::get('/cart', function () {
     return view('cart');
 });
+
 

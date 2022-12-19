@@ -63,8 +63,12 @@
                 </ul>
                 <ul class="header-links pull-right">
                     {{-- <li><a href="#"><i class="fa fa-dollar"></i> USD</a></li> --}}
-                    <li><a href="../login"><i class="fa fa-user-o"></i>Login</a></li>
-                    <li><a href="../register"><i class="fa fa-user-o"></i>Register</a></li>
+                    @if (!auth()->user())
+                        <li><a href="{{ route('login') }}"><i class="fa fa-user-o"></i>Login</a></li>
+                        <li><a href="{{ route('register-user') }}"><i class="fa fa-user-o"></i>Register</a></li>
+                    @else
+                        <li><a href="{{ route('signout') }}"><i class="fa fa-user-o"></i>Logout</a></li>
+                    @endif
                 </ul>
             </div>
         </div>
