@@ -1,6 +1,6 @@
 # masterpiece project
 
-# zahran store shop for electronic products.
+## zahran store shop for electronic products.
 
 
 ### Zahran Store is a store specialized in selling electrical and electronic devices. Our website is characterized by providing the best price in addition to guaranteeing product quality.
@@ -12,7 +12,7 @@
 ### 4-About us : the about page consists It contains an overview of us, how we started, the services we provide, the time we spent in this field.
 ### 5-Contact us :It contains the store's location, methods of contacting us, phone number, in addition to the number of working hours.
 
-Technologies used in building this site:
+##Technologies used in building this site:
 ### Frontend: Html5 , Css3, Javascript , Bootstrap5.
 ### Backend: php8 , Laravel9 , Mysql.
 
