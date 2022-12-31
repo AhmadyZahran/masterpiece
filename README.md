@@ -1,7 +1,6 @@
 # masterpiece project
 
-zahran store
-Shop for electronic products.
+# zahran store shop for electronic products.
 
 
 Zahran Store is a store specialized in selling electrical and electronic devices. Our website is characterized by providing the best price in addition to guaranteeing product quality.
@@ -17,8 +16,8 @@ Technologies used in building this site:
 ## Frontend: Html5 , Css3, Javascript , Bootstrap5.
 ## Backend: php8 , Laravel9 , Mysql.
 
-Trello link https://trello.com/b/xNLdZXRG/masterpiece
-wireframe link https://www.figma.com/file/T0iq8ZaCgYRGvqHCEl37NA/masterpiece?node-id=0%3A1&t=fqqJ4N7DFSeIMaOi-0
-mockup link https://www.figma.com/file/RGFnd8qkql018ixOmmUndi/masterpieces?t=fqqJ4N7DFSeIMaOi-0
-presentation file [Zahran store.pptx](https://github.com/AhmadyZahran/final-project/files/10312879/Zahran.store.pptx)
-documentation file [Zahran_documentation.docx](https://github.com/AhmadyZahran/final-project/files/10312880/Zahran_documentation.docx)
+### Trello link https://trello.com/b/xNLdZXRG/masterpiece
+### wireframe link https://www.figma.com/file/T0iq8ZaCgYRGvqHCEl37NA/masterpiece?node-id=0%3A1&t=fqqJ4N7DFSeIMaOi-0
+### mockup link https://www.figma.com/file/RGFnd8qkql018ixOmmUndi/masterpieces?t=fqqJ4N7DFSeIMaOi-0
+### presentation file [Zahran store.pptx](https://github.com/AhmadyZahran/final-project/files/10312879/Zahran.store.pptx)
+### documentation file [Zahran_documentation.docx](https://github.com/AhmadyZahran/final-project/files/10312880/Zahran_documentation.docx)
