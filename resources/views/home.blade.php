@@ -1,4 +1,4 @@
-@extends('frontend.footer')
+{{-- @extends('frontend.footer') --}}
 
 @extends('frontend.header')
 
@@ -41,7 +41,7 @@
                         </ul>
                         <h2 class="text-uppercase">Best offers and lowest prices</h2>
                         <p>New Collection Up now</p>
-                        <a class="primary-btn cta-btn" href="./allproduct">Shop now</a>
+                        <a class="primary-btn cta-btn" href="./product">Shop now</a>
                     </div>
                 </div>
             </div>
@@ -399,8 +399,7 @@
                                         </div>
                                         <div class="product-body">
                                             <p class="product-category">Refrigerator</p>
-                                            <h3 class="product-name"><a href="#">SAMSUNG Refrigerator 580L Stainless
-                                                    Steel</a></h3>
+                                            <h3 class="product-name"><a href="#">SAMSUNG Refrigerator 580L</a></h3>
                                             <h4 class="product-price">1049.00 JOD <del class="product-old-price">1300.00
                                                     JOD</del></h4>
                                             <div class="product-rating">
@@ -430,7 +429,7 @@
                                     <!-- product -->
                                     <div class="product">
                                         <div class="product-img">
-                                            <img src="./img/MOK5.jpg" alt="">
+                                            <img src="./img/mmmm.jpg" alt="">
                                             {{-- <div class="product-label">
 												<span class="sale">-30%</span>
 											</div> --}}
@@ -441,6 +440,11 @@
                                             <h4 class="product-price">109.00 JOD <del class="product-old-price">120.00
                                                     JOD</del></h4>
                                             <div class="product-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
                                             </div>
                                             <div class="product-btns">
                                                 <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span

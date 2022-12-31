@@ -1,4 +1,4 @@
-@extends('frontend.footer')
+{{-- @extends('frontend.footer') --}}
 @extends('frontend.header')
 @section('title','about')
 

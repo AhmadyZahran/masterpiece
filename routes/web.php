@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TemplateController;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\productcontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,13 +16,17 @@ use App\Http\Controllers\CustomAuthController;
 */
 
 // Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/', [TemplateController::class, 'index'])->name('home');
-
-
-Route::get('/category', function () {
-    return view('category');
+    //     return view('welcome');
+    // });
+    Route::get('/', [TemplateController::class, 'index'])->name('home');
+    
+    Route::get('/product', [productcontroller::class, 'index']);
+    
+    Route::get('/category', function () {
+        return view('category');
+});
+Route::get('/404', function () {
+    return view('error.404');
 });
 
 Route::get('/login', [CustomAuthController::class, 'index'])->name('login');
@@ -39,6 +44,7 @@ Route::get('/register', [CustomAuthController::class, 'registration'])->name('re
 Route::get('/checkout', function () {
     return view('checkout');
 });
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
@@ -52,29 +58,25 @@ Route::get('/contact', function () {
 });
 
 
-Route::get('/singleproduct', function () {
-    return view('single product');
-});
 
+// Route::get('/singleproduct', function () {
+//     return view('single product');
+// });
 Route::get('/allproduct', function () {
     return view('all product');
 });
 
-// Route::get('/login', function () {
-//     return view('login');
-// });
 
-// Route::get('/register', function () {
-//     return view('register');
-// });
 
 Route::get('/profile', function () {
     return view('profile');
-});
+})->name('profile'); 
 
 
 Route::get('/cart', function () {
     return view('cart');
 });
 
+
+Route::get('/singleproduct/{id}', [productcontroller::class, "viewNow"]);
 
