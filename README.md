@@ -14,8 +14,8 @@ The site consists of 5 main pages, which are as follows:
 5-Contact us :It contains the store's location, methods of contacting us, phone number, in addition to the number of working hours.
 
 Technologies used in building this site:
-# Frontend: Html5 , Css3, Javascript , Bootstrap5.
-# Backend: php8 , Laravel9 , Mysql.
+## Frontend: Html5 , Css3, Javascript , Bootstrap5.
+## Backend: php8 , Laravel9 , Mysql.
 
 Trello link https://trello.com/b/xNLdZXRG/masterpiece
 wireframe link https://www.figma.com/file/T0iq8ZaCgYRGvqHCEl37NA/masterpiece?node-id=0%3A1&t=fqqJ4N7DFSeIMaOi-0
