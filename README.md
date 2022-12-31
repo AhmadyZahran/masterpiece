@@ -5,7 +5,7 @@
 
 ### Zahran Store is a store specialized in selling electrical and electronic devices. Our website is characterized by providing the best price in addition to guaranteeing product quality.
 
-### The site consists of 5 main pages, which are as follows:
+## The site consists of 5 main pages, which are as follows:
 #### 1-Home : The home page consists of the new products that we have recently received and the best-selling products, and subscribe to us if you like.
 #### 2-Category : the category page consists it of the categories of products found on the site.
 #### 3-Product : the product page consists it all product found in the site.
